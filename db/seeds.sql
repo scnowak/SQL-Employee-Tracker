@@ -10,16 +10,16 @@ VALUES
 
 INSERT INTO role (title, salary, department_id)
 VALUES 
-('IT Manager', 135000.00, 1),
-('Marketing Manager', 135000.00, 2),
-('HR Director', 175000.00, 3),
-('Finance Head', 155000.00, 4),
-('Research and Development Manager ', 190000.00, 5),
-('Legal Manager', 85000.00, 6);
+('IT Manager', 135000, 1),
+('Marketing Manager', 135000, 2),
+('HR Director', 175000, 3),
+('Finance Head', 155000, 4),
+('R & D Manager ', 190000, 5),
+('Legal Manager', 85000, 6);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-('GINA', 'JAMES', 1, 1),
+('GINA', 'JAMES', 1, NULL),
 ('CAROL', 'POLLOCK', 2, 2),
 ('DASHA', 'SHUGART', 3, 3),
 ('LOIS', 'BALL', 4, 4),

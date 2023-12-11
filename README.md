@@ -5,12 +5,11 @@ Create a database to be able to view and manage the departments, roles, and empl
 * [Description](#description)
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
-* [Installation & Usage](#installation-usage-)
+* [Installation and Usage](#installation-and-usage)
 * [Project Demo](#project-demo)
 * [Heroku Deployed Link](#heroku-deployed-link)
 * [In Conclusion](#in-conclusion)
 * [Resources](#resources)
-* [Utilized Resources](#utilized-resources)
 * [Contact](#contact)
 
 
@@ -43,7 +42,9 @@ WHEN I click on the "New Note" button in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
 ```
 
-## Installation & Usage
+
+## Installation and Usage
+
 [MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to your MySQL database and perform queries
 
 [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4) to interact with the user via the command line.
