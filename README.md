@@ -7,22 +7,21 @@ Create a database to be able to view and manage the departments, roles, and empl
 * [Acceptance Criteria](#acceptance-criteria)
 * [Installation and Usage](#installation-and-usage)
 * [Project Demo](#project-demo)
-* [Heroku Deployed Link](#heroku-deployed-link)
 * [In Conclusion](#in-conclusion)
 * [Resources](#resources)
 * [Contact](#contact)
 
 
 ## Description
-Create interface that allows non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. I am building a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+As a devoper, I am to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
 
 
 ## User Story
 ```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+AS A business owner
+I WANT to be able to view and manage the departments, roles, and employees in my company
+SO THAT I can organize and plan my business
 ```
 
 ## Acceptance Criteria
@@ -52,9 +51,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 Open the content management systems (CMS) named SQL-Employee-Tracker.
 
-Type `npm init` in the terminal to get `package.json`.
+Type `npm i` in the terminal to get `package.json`.
 
 Type `npm install express` in the terminal to install dependencies for the project.
+
+Type `npm start` to initiate the server.
 
 Open 'Intergrated Terminal' on 'server.js' and key in 'node server.js'
 
@@ -65,17 +66,10 @@ Click 'enter' or 'return' on your respective choice.
 Follow all commad line prompts as directed until desired choice has been met.
 
 
-<!-- Type `npm start` to initiate the server. -->
-
-
 
 
 ## Project Demo
-[Project Video Demo]( )
-
-
-## Heroku Deployed Link
-I was unable to use Heroku even after all directions were followed and installation was a success. 
+[Project Video Demo](https://drive.google.com/file/d/1ZDUYoKFBgPjQg1zeqP65H6jUsOFYEMSn/view?usp=sharing )
 
 ## In Conclusion
 I learned how to creating a robust content management systems (CMS).
@@ -84,10 +78,9 @@ I created a walkthrough video to show how the interfaces operate and completed t
 
 
 ## Resources
-* [Heroku Tutorial For Beginners - Deploy Your App to Heroku Under 5 Minutes!](https://www.youtube.com/watch?v=aUW5GAFhu6s)
-* Inquirer.js: Version 8.2.4
-* MySQL2: Version 3.1.2
-<!-- * Console.table: Version 0.10.0 -->
+* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
+
+* Uses the [MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to a MySQL database.
 
 * My exceptional tutor, Bobbi Tarkany, was a great help to me and she explains things so well. 
 
